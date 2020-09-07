@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function equation(a, b) {
+        if (a == 0) {
+            if (b == 0) {
+                return ("Equations with countless solutions");
+            } else {
+                return ("The equation has no solution")
+            }
+        } else {
+            return ("Equations have unique solutions: " + (-b / a));
+        }
+    }
+
+    let result = equation(5, 8);
+    document.write(result);
+</script>
+</body>
+</html>
